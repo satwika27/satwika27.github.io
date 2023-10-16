@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@1,700&display=swap');
+
+body{
+    background-color:#132043;
+    text-align: center;
+    
+
+    .zero {
+        border-width:10px;
+        height:250px;
+        border-radius:50%;
+        border-color:#FDF0F0;
+        border-style:solid;
+        transition: all 2s;
+        
+        }
+    }
+
+    .first {
+        color:#F1B4BB;
+        font-family: 'Arvo', serif;
+
+    }
+    .second {
+        color:green;
+        font-family: 'Arvo', serif;
+    }
+    .zero:hover {
+       scale: 1.2;
+    }
